@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    margin-top: 170px;
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/03/24/11/21/thunder-4963719__340.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    background-color: #222;
+    color: white;
+    height: 38vh;
+    width: 330px;
+    border-radius: 15px;
+}
+.search{
+    margin-top: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    border-radius: 24px;
+    border: 1px solid #7c7c7c2b;
+    padding: 0.5em 30px;
+    background-color: #7c7c7c2b;
+    font-family: inherit;
+    font-size: 15px;
+    color:white;
+    text-transform: capitalize;
+
+    
+}
+.btn{
+    width: 22px;
+    border-radius: 50%;
+    margin-left: 6px;
+    background-color: #7c7c7c2b;
+    border: none;
+    color: white;
+}
+::placeholder{
+    
+}
+.city{
+ font-size: 22px;
+ padding-left: 15px;
+}
+.temp{
+    padding-left: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+.desc,
+.humidi,
+.wind{
+    padding-left: 15px;
+    margin-bottom: 7px;
+}
+.left{
+    display: flex;
+    /* height:55px; */
+    align-items: center;
+}
+
+.left img{
+    padding-left: 10px;
+}
+.temp{
+    margin-bottom: 0.4rem;
+}
